@@ -1,0 +1,31 @@
+#
+# ~/.aliasrc
+#
+
+### Start of Aliases
+
+alias pacman='sudo pacman'
+alias ls='ls --color=auto'
+alias cls='clear'
+alias startxrandr='/home/rohan/.screenlayout/Default.sh'
+alias startnitrogen='nitrogen --head=0 --set-zoom-fill /usr/local/lib/wallpaper.jpg && nitrogen --head=1 --set-zoom-fill /usr/local/lib/wallpaper.jpg'
+
+### Start of Cowsay
+alias fcow='fortune | cowsay'
+alias focow='fortune -o | cowsay'
+alias ftux='fortune | cowsay -f tux'
+alias fotux='fortune -o | cowsay -f tux'
+alias fcalf='fortune | cowsay -f small'
+alias focalf='fortune -o | cowsay -f small'
+alias fkoala='fortune | cowsay -f koala'
+alias fokoala='fortune -o | cowsay -f koala'
+alias fmoose='fortune | cowsay -f moose'
+alias fomoose='fortune -o | cowsay -f moose'
+### End of Cowsay
+
+
+### Start of Typo Correction
+
+alias cd..='cd ..'
+
+### End of Typo Correction
